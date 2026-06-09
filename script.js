@@ -21,7 +21,7 @@
       slogan: '"Job Just Right" Campaign',
       blurb: 'Indeed tasked my team with creating a <span class=\"hi\">$15M fully-fledged marketing campaign</span> that made their brand top of mind for Gen Z as they entered the workforce. The campaign featured long-form creative showcasing the vast possibilities in the work of job-seeking, and experiential activations that aimed to support Gen Z at every step of the job seeking process, from resume support, to attire selection, to start-up fundraising. Most importantly, the <span class=\"hi\">"Job Just Right"</span> messaging pulls from Goldilocks motifs to emphasize that Indeed offers what Gen Z seeks most: personalization.<br><br><span class=\"proj-role\">Role: Copywriter, Field Marketing Strategist</span>',
       collage: ["images/img_11.jpg", "images/img_12.jpg"], // add image URLs or base64 here
-      video: 'https://drive.google.com/file/d/1e1Iihac4PdR2gxCyJ4ITp3qCz4GL_b7f/preview',
+      video: 'https://drive.google.com/file/d/1Zj_clV0MJmE5YomPH70f3Ai7GBW2eQ1x/preview',
       slides: [
         { img: "images/img_13.jpg" },
         { img: "images/img_14.jpg" },
@@ -45,7 +45,7 @@
       slogan: '"It\'s Better on Cold" Campaign',
       blurb: 'Tide\'s newest campaign sought not to promote its own product, but rather, more environmentally friendly laundry habits. Our team was tasked with creating a <span class=\"hi\">$60M sustainability campaign</span> focused on encouraging Gen Z to convert to cold water washing. Based on three key strategic drivers, the campaign offered accessible and humorous creative and large-scale field activations aimed at driving organic buzz on the topic. The "<span class=\"hi\">It\'s Better on Cold</span>" messaging also offered three programmatically delivered sub-slogans targeting each of the key drivers, letting consumers know that cold water washing was Greener, Cheaper, and Cleaner.<br><br><span class=\"proj-role\">Role: Copywriter, Field Marketing Strategist</span>',
       collage: ["images/img_26.jpg", "images/img_27.jpg", "images/img_28.jpg"],
-      video: 'https://drive.google.com/file/d/1B5kqTbWUrzPhgpH8LBkVe29urm-1jnh_/preview',
+      video: 'https://drive.google.com/file/d/1-VXHmPoku9h6JI7WLCx2TzAnk38iQwo8/preview',
       slides: [
         { img: "images/img_29.jpg" },
         { img: "images/img_30.jpg" },
@@ -68,7 +68,7 @@
       slogan: '"Connecting Changes Everything" Campaign',
       blurb: 'AT&T wanted not to ideate a new campaign, but to expand on an existing one. We proposed a <span class=\"hi\">$50M extension</span> of their <span class=\"hi\">"Connecting Changes Everything"</span> campaign that places AT&T at the forefront of the meaningful connections we\'ve maintained throughout our lifetimes. The campaign includes emotional long-form and short-form creative showcasing AT&T\'s history and capabilities, emphasizing that AT&T is always, has always, and will always be there.<br><br><span class=\"proj-role\">Role: Copywriting Team Lead, Video Director</span>',
       collage: ["images/img_42.png","images/img_43.png"],
-      video: 'https://drive.google.com/file/d/1ZFNP4tf9aDze8oNRsIgJFeGFnAS_pnWC/preview',
+      video: 'https://drive.google.com/file/d/1AHYkYXsQFir8Ok9G9yzT7n_-KcWH_5Ly/preview',
       slides: [
         { img: "images/img_44.jpg", title: "PAGE 1" },
         { img: "images/img_45.jpg", title: "PAGE 2" },
@@ -99,6 +99,41 @@
         { img: "images/uji_slide_03.png", title: "SLIDE 3" },
         { img: "images/uji_slide_04.png", title: "SLIDE 4" }
       ]
+    },
+    5: {
+      num: 'QUEST_005', type: 'CAMPAIGN', title: 'UBER ONE',
+      tags: ['EXPERIENTIAL MARKETING','NATIONAL FINALIST'],
+      slogan: '"Onesona" Campaign',
+      blurb: 'Uber One\'s annual student pitch competition has one purpose: to attract and delight students. We were tasked with creating a national tour for an experiential execution and pitched the <span class=\"hi\">Onesona campaign</span> based on a key insight: college students crave community. Akin to Harry Potter houses and personality quizzes, this experience would analyze, categorize, and engage students with gamified touchpoints and sharable merchandise. Finally, it would be topped off with approachable design, and playful copy, encouraging participants to enter the <span class=\"hi\">"Uberverse"</span> and find their true "Onesona".<br><br><span class=\"proj-role\">Role: Team Lead, Copywriter, Experiential Strategist</span>',
+      collage: ["images/img_uber.png"],
+      video: null,
+      stratLabel: 'VIEW THE WORK',
+      slides: [
+        { img: "images/uber_slide_01.jpg" },
+        { img: "images/uber_slide_02.jpg" },
+        { img: "images/uber_slide_03.jpg" },
+        { img: "images/uber_slide_04.jpg" },
+        { img: "images/uber_slide_05.jpg" },
+        { img: "images/uber_slide_06.jpg" },
+        { img: "images/uber_slide_07.jpg" },
+        { img: "images/uber_slide_08.jpg" },
+        { img: "images/uber_slide_09.jpg" },
+        { img: "images/uber_slide_10.jpg" },
+        { img: "images/uber_slide_11.jpg" },
+        { img: "images/uber_slide_12.jpg" },
+        { img: "images/uber_slide_13.jpg" },
+        { img: "images/uber_slide_14.jpg" }
+      ]
+    },
+    6: {
+      num: 'QUEST_006', type: 'WRITING', title: 'THESIS',
+      tags: ['WRITING','AUDIENCE RESEARCH','LITERATURE REVIEW'],
+      slogan: 'Fandom Cultures and Behaviors',
+      blurb: 'In order to receive honors in my Media Studies degree at UC Berkeley, I was tasked with writing a 65 page honors thesis, and was <span class=\"hi\">one of seven thesis candidates selected to receive the honors</span>. This thesis explores the prevalence of specific fandom and shipping behaviors and hypothesizes how it\'s impacted larger internet culture as a sociological shift in our understanding of media. I conducted secondary literature review across numerous academic journals, a textual semiotic analysis across 20 years of behavior, and primary audience interviews.',
+      collage: ["images/img_thesis.png"],
+      video: null,
+      stratLabel: 'VIEW THE WORK',
+      pdf: 'https://drive.google.com/file/d/1_69UiquCuTgpTYbX6xPA1KEOofleAepe/preview'
     }
   }
 
@@ -153,12 +188,35 @@
         videoSection.style.display = 'none';
       }
 
-      // Strategy carousel
+      // Strategy / PDF section
       var stratSection = document.getElementById('proj-strat-section');
       var track = document.getElementById('proj-car-track');
       var dotsEl = document.getElementById('proj-car-dots');
-      if (p.slides && p.slides.length) {
+
+      // Remove any existing PDF embed
+      var existingPdf = document.getElementById('proj-pdf-embed');
+      if (existingPdf) existingPdf.remove();
+
+      if (p.pdf) {
+        // Show a "View in Drive" button instead of broken iframe embed
         stratSection.style.display = '';
+        var stratTitle = document.getElementById('proj-strat-title');
+        stratTitle.innerHTML = 'VIEW THE <span class="ac">WORK</span>';
+        track.innerHTML = '';
+        dotsEl.innerHTML = '';
+        document.getElementById('proj-car-prev').style.display = 'none';
+        document.getElementById('proj-car-next').style.display = 'none';
+        var pdfWrap = document.createElement('div');
+        pdfWrap.id = 'proj-pdf-embed';
+        pdfWrap.style.cssText = 'width:100%;max-width:900px;margin:24px auto 0;text-align:center;';
+        pdfWrap.innerHTML = '<a href="' + p.pdf + '" target="_blank" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;padding:14px 32px;text-decoration:none;"><span>▶</span> OPEN THESIS</a>';
+        var stratHeader = stratSection.querySelector('.proj-section-header');
+        stratHeader.insertAdjacentElement('afterend', pdfWrap);
+      } else if (p.slides && p.slides.length) {
+        stratSection.style.display = '';
+        // Show carousel nav
+        document.getElementById('proj-car-prev').style.display = '';
+        document.getElementById('proj-car-next').style.display = '';
         var stratTitle = document.getElementById('proj-strat-title');
         if (p.stratLabel) {
           var parts = p.stratLabel.split(' ');
