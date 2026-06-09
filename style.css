@@ -47,7 +47,7 @@
     .page { display:none; min-height:100vh; }
     .page.active { display:block; }
 
-    /* ── HERO PAGE ── */
+    /* â”€â”€ HERO PAGE â”€â”€ */
     .hero {
       min-height:100vh; display:flex; flex-direction:column;
       justify-content:center; align-items:center; text-align:center;
@@ -93,7 +93,7 @@
     .xp-fill { height:100%; background:linear-gradient(90deg,var(--orange),var(--gold)); width:0; animation:fillXP 1.4s steps(20) 1.6s forwards; }
     @keyframes fillXP { to{width:72%} }
 
-    /* ── SECTION SHARED ── */
+    /* â”€â”€ SECTION SHARED â”€â”€ */
     .page-content { padding:100px 48px; position:relative; z-index:1; }
     .sec-header { display:flex; align-items:center; gap:16px; margin-bottom:48px; }
     .sec-num { font-family:var(--pixel); font-size:9px; color:var(--gold); background:rgba(255,180,80,0.08); border:2px solid var(--border); padding:6px 12px; white-space:nowrap; text-shadow:2px 2px 0 var(--orange); }
@@ -105,9 +105,9 @@
     .stat-block-divider { height:2px; background:repeating-linear-gradient(90deg,var(--border) 0,var(--border) 6px,transparent 6px,transparent 12px); margin:16px 0; }
     .stat-block-row { font-family:var(--vt); font-size:18px; color:var(--muted); display:flex; justify-content:space-between; align-items:center; padding:4px 0; }
     .stat-block-row span:last-child { color:var(--white); }
-    .proficient::before { content:'★ '; color:var(--gold); font-size:12px; }
+    .proficient::before { content:'â˜… '; color:var(--gold); font-size:12px; }
 
-    /* ── CHARACTER PAGE ── */
+    /* â”€â”€ CHARACTER PAGE â”€â”€ */
     .char-page { background:var(--bg2); }
     .char-grid { display:grid; grid-template-columns:1fr 1.4fr; gap:48px; align-items:start; }
 
@@ -121,6 +121,7 @@
     .char-bio { font-family: "Poppins", sans-serif; font-size:14px; line-height:1.9; color:#b0a0a8; margin-bottom:8px; font-weight:300; }
     .char-bio strong { color:var(--white); font-weight:600; }
     .char-bio em { color:var(--gold); font-style:normal; }
+    .char-list { padding-left:32px; list-style:disc; }
 
     /* Experience */
     .exp-entry { background:var(--panel); border:2px solid var(--border); padding:24px 28px; margin-bottom:0px; position:relative; transition:border-color .2s; }
@@ -131,7 +132,7 @@
     .exp-company { font-family:var(--vt); font-size:20px; color:var(--orange); margin-bottom:8px; letter-spacing:0.05em; }
     .exp-desc { font-size:15px; line-height:1.8; color:var(--muted); }
 
-    /* ── QUEST PAGE ── */
+    /* â”€â”€ QUEST PAGE â”€â”€ */
     .quest-page { background:var(--bg); }
     .quest-log-label { display:flex; align-items:center; justify-content:space-between; font-family:var(--pixel); font-size:9px; color:var(--pink); background:rgba(255,110,180,0.06); border:2px solid rgba(255,110,180,0.2); padding:10px 20px; margin-bottom:16px; }
     .ql-status { color:var(--muted); font-size:8px; }
@@ -251,7 +252,7 @@
     }
 
   
-    /* ── MINI QUESTS CAROUSEL ── */
+    /* â”€â”€ MINI QUESTS CAROUSEL â”€â”€ */
     .mini-section { padding-bottom: 80px; }
     .carousel-wrap {
       position: relative;
@@ -338,7 +339,7 @@
     #nda-typer::after { content: '|'; animation: blink .7s step-end infinite; }
     @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
-    /* ── PROJECT PAGE ── */
+    /* â”€â”€ PROJECT PAGE â”€â”€ */
     .project-page { padding: 80px 48px 80px; max-width: 1200px; margin: 0 auto; }
     .back-btn {
       font-family: var(--pixel); font-size: 9px; color: var(--muted);
